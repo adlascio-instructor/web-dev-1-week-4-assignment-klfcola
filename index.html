@@ -4,8 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" sizes="32x32">
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="page">
+      <div id="left">
+        <img src="/images/logo.svg" id="logoimg" alt="logo" />
+        <form>
+          <div id="inner">
+          <div id="title">
+            <img src="/images/log-in.svg" alt="login" />
+            <h1>  Login</h1>
+          </div>
+            <div id="paragraph">
+               <p id="information">Insert your information below.</p>
+            </div>
+          <div id="text">
+            <label for="email">E-mail</label>
+            <br>
+            <input type="text" id="email" name="email" placeholder="Type your email" required>
+            <br>
+            <br>
+            <label for="password">Senha</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Type your password" required>
+          </div>
+          <div id="remind">
+            <input type="checkbox" id="remindme" name="remindme">
+            <label for="remindme">Remind me</label>
+          </div>
+          <div id="forgot">
+            <a href="#" id="forgotpassword">Forgot my password</a>
+          </div>
+          <div id="button">
+            <button type="submit">LOGIN</button>
+          </div>
+          <div id="signup">
+            <p id="newaccount">Don't have an account? <a href="#" id="signuplink">Sign up!</a></p>
+          </div>
+          </div>
+        </form>
+      </div>
+      <img src="/images/side-image.jpg" id="carimg" alt="loginimage" />
+    </div>
+  </body>
 </html>

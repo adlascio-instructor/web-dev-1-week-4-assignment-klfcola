@@ -148,6 +148,7 @@ input[type="checkbox"]{
     background-color: #24221f;
     display: inline-block;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 input[type="checkbox"]:checked{
@@ -220,5 +221,19 @@ button{
 
     form{
         padding: 0;
+    }
+}
+
+@media (min-width: 1110px){
+    #inner{
+        justify-items: center;
+    }
+
+    #forgot{
+        justify-self: center;
+    }
+
+    #title{
+        justify-self: center;
     }
 }
